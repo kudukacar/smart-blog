@@ -54,10 +54,16 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in New York building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow her on Twitter
+        Written by <strong>{author}</strong> who lives and works in New York.
+        {" Follow her on "}
+        <a 
+          href={`https://linkedin.com/in/${social.twitter}`}
+          style={{
+            textDecoration: `underline`,
+            color: `#007acc`
+          }}
+        >
+          LinkedIn.
         </a>
       </p>
     </div>

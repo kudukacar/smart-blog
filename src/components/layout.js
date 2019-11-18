@@ -24,7 +24,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            to={`/blog`}
           >
             {title}
           </Link>
@@ -32,10 +32,12 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <div
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
+            fontSize: 30,
+            paddingBottom: 20
           }}
         >
           <Link
@@ -44,11 +46,11 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            to={`/blog`}
           >
             {title}
           </Link>
-        </h3>
+        </div>
       )
     }
     return (
@@ -62,11 +64,11 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     )
   }
