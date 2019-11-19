@@ -49,6 +49,8 @@ code {
 
 .leftnav > div {
   padding-left: 10px;
+  font-weight: bold;
+  color: #007acc;
 }
 
 .rightnav {
@@ -75,9 +77,10 @@ code {
   line-height: 2;
 }
 
-i {
+.footer > div > a {
   margin: 0px 10px;
   color: #007acc;
+  font-size: 30px;
 }
 
 .copyright {
@@ -89,8 +92,8 @@ i {
 .overview {
   text-align: center;
   padding: 180px 0px;
-  background-image: url(../../content/assets/nyc.jpeg);
-  color: #ffffff;
+  background-image: url(../../content/assets/nyc3.jpeg);
+  color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -98,11 +101,13 @@ i {
 .overviewheader {
   font-size: 54px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .overviewcaption {
-  font-size: 32px;
+  font-size: 34px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .research {
