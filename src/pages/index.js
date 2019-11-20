@@ -4,6 +4,7 @@ import NavBar from '../components/navbar';
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import { rhythm } from "../utils/typography";
+import SEO from "../components/seo";
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,10 @@ const About = () => {
   `)
   return(
     <React.Fragment>
+      <SEO 
+        title="Home physical therapy"
+        description="physical therapy house calls" 
+      />
       <NavBar />
       <div>
         <div className="overview">

@@ -2,6 +2,7 @@
 title: Running benefits hip and knee joints
 date: "2018-03-21T22:12:03.284Z"
 description: Movement and balance
+featured: /running.jpg
 ---
 ![physical therapy house call](./running.jpg)
 

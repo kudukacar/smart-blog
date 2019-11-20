@@ -3,20 +3,21 @@ import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
+import SEO from "../components/seo";
 
 const Insurance = () => {
   const data = useStaticQuery(graphql`
     query {
       home: file(absolutePath: { regex: "/homehealth.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 450, maxHeight: 400) {
+          fluid(maxWidth: 450) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       walking: file(absolutePath: { regex: "/walking.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 450, maxHeight: 400) {
+          fluid(maxWidth: 450) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -25,6 +26,10 @@ const Insurance = () => {
   `)
   return(
     <React.Fragment>
+      <SEO 
+        title="Medicare provider"
+        description="accepts Medicare"
+      />
       <NavBar />
       <div className="insurance">
         <div className="insurancetype">
@@ -37,12 +42,11 @@ const Insurance = () => {
           <p>No referral required.  You should be under the care of a physician, podiatrist, or nurse practitioner.</p>
         </div>
         <Image
-          fixed={data.home.childImageSharp.fluid}
+          fluid={data.home.childImageSharp.fluid}
           alt="home physical therapy"
           style={{
             marginBottom: 0,
-            minWidth: 500,
-            minHeight: 400
+            minWidth: 500
           }}
         />
       </div>
@@ -55,12 +59,11 @@ const Insurance = () => {
           <p>No referral required.  We provide an invoice to submit to your insurance company as needed.</p>
         </div>
         <Image
-          fixed={data.walking.childImageSharp.fluid}
+          fluid={data.walking.childImageSharp.fluid}
           alt="home physical therapy"
           style={{
             marginBottom: 0,
-            minWidth: 500,
-            minHeight: 400
+            minWidth: 500
           }}
         />
       </div>

@@ -2,8 +2,9 @@
 title: Address depression
 date: "2018-05-08T23:46:37.121Z"
 description: Home physical therapy
+featured: /depressed.jpg
 ---
-![physical therapy house callse](./depressed.jpg)
+![physical therapy house calls](./depressed.jpg)
 
 Some of my clients complain of being tired and having no energy.  They spend most of the day reclined in a chair or in bed, only getting up to eat or use the restroom.  They participate and talk during the physical therapy session, but rarely do their home exercises, go outside, or engage in other activities.  One client states every visit, “They call this golden age, this is not golden age, this is shitty age.”
 

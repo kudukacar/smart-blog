@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Smart Moves Blog`,
+    title: `Smart Moves Physical Therapy`,
     author: `Manju Thomas`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Home physical therapy`,
+    siteUrl: `https://goofy-mirzakhani-dd25fe.netlify.com/`,
+    keyword: `home physical therapy, physical therapy house calls, fall prevention`,
     social: {
       twitter: `thomasmanju`
     },

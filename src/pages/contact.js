@@ -3,6 +3,7 @@ import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
+import SEO from "../components/seo";
 
 const Contact = () => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,10 @@ const Contact = () => {
 
   return(
     <React.Fragment>
+      <SEO 
+        title="Floral Park, New York"
+        description="Queens, Nassau Count, and Manhattan" 
+      />
       <NavBar />
       <div className="contact">
         <div>
@@ -28,7 +33,7 @@ const Contact = () => {
           <div className="contactinfo">mthomas@smartmovesphysicaltherapy.com</div>
         </div>
         <Image
-          fixed={data.walking2.childImageSharp.fluid}
+          fluid={data.walking2.childImageSharp.fluid}
           alt="home physical therapy"
           style={{
             marginBottom: 0,

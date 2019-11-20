@@ -10,9 +10,9 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = "Smart Moves Blog"
     const { previous, next } = this.props.pageContext
-
+    const image = post.frontmatter.image ? post.frontmatter.image.childImageSharp.resize : null 
     return (
       <React.Fragment>
         <NavBar />
@@ -20,6 +20,7 @@ class BlogPostTemplate extends React.Component {
           <SEO
             title={post.frontmatter.title}
             description={post.frontmatter.description || post.excerpt}
+            image={image}
           />
           <article>
             <header>
@@ -65,14 +66,26 @@ class BlogPostTemplate extends React.Component {
             >
               <li>
                 {previous && (
-                  <Link to={previous.fields.slug} rel="prev">
+                  <Link 
+                    to={previous.fields.slug} 
+                    rel="prev"
+                    style={{
+                      color: '#007acc'
+                    }}
+                  >
                     ← {previous.frontmatter.title}
                   </Link>
                 )}
               </li>
               <li>
                 {next && (
-                  <Link to={next.fields.slug} rel="next">
+                  <Link 
+                    to={next.fields.slug} 
+                    rel="next"
+                    style={{
+                      color: '#007acc'
+                    }}
+                  >
                     {next.frontmatter.title} →
                 </Link>
                 )}
@@ -103,6 +116,15 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image: featured {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
   }

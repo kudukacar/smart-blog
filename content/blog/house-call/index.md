@@ -2,6 +2,7 @@
 title: The amazing house call
 date: "2018-01-24T22:40:32.169Z"
 description: Home physical therapy
+featured: /housecall.jpg
 ---
 ![housecall](./housecall.jpg)
 

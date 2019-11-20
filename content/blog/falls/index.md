@@ -2,6 +2,7 @@
 title: Prevent falls
 date: "2018-02-06T23:46:37.121Z"
 description: Movement and balance
+featured: /falls.jpg
 ---
 ![physical therapy house calls](./falls.jpg)
 

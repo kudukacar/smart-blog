@@ -2,6 +2,7 @@
 title: A holitic approach to fall prevention
 date: "2018-04-27T23:46:37.121Z"
 description: Movement and balance
+featured: /stones.jpg
 ---
 ![home physical therapy](./stones.jpg)
 

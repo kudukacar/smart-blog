@@ -2,6 +2,7 @@
 title: Your home provides an effective venue for exercise
 date: "2018-01-10T23:46:37.121Z"
 description: Home physical therapy
+featured: /stairs.jpg
 ---
 ![Home physical therapy](./stairs.jpg)
 

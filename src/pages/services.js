@@ -1,9 +1,14 @@
 import React from 'react';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
+import SEO from "../components/seo";
 
 const Services = () => (
   <React.Fragment>
+    <SEO 
+      title="Physical therapy house calls"
+      description="Home physical therapy"
+    />
     <NavBar />
     <div className="services">
       <div className="seniors"></div>

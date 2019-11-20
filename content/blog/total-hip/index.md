@@ -2,6 +2,7 @@
 title: Total hip replacement guide
 date: "2018-05-21T22:12:03.284Z"
 description: Orthopedic conditions
+featured: /hip.jpg
 ---
 ![physical therapy house calls](./hip.jpg)
 
