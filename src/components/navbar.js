@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav className="leftnav">
         <img src={logo} alt="home physical therapy" />
         <div>
-          Smart Moves Physical Therapy
+          <Link to="/">Smart Moves Physical Therapy</Link>
         </div>
       </nav>
       <nav className="rightnav">

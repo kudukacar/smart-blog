@@ -9,6 +9,7 @@ const Footer = () => (
   <div className="footer">
     <div>mthomas@smartmovesphysicaltherapy.com</div>
     <div>678-372-7972</div>
+    <div>Serves Queens, Nassau County, and Manhattan</div>
     <div>
       <a href="https://www.facebook.com/floralparknewyork"><FaFacebook /></a>
       <a href="https://twitter.com/movesphysical"><FaTwitter /></a>

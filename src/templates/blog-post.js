@@ -27,6 +27,7 @@ class BlogPostTemplate extends React.Component {
                 style={{
                   marginTop: rhythm(1),
                   marginBottom: 0,
+                  fontFamily: 'sans-serif'
                 }}
               >
                 {post.frontmatter.title}
