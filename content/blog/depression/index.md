@@ -2,7 +2,7 @@
 title: Address depression
 date: "2018-05-08T23:46:37.121Z"
 description: Home physical therapy
-featured: /depressed.jpg
+featured: ./depressed.jpg
 ---
 ![physical therapy house calls](./depressed.jpg)
 

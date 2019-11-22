@@ -2,7 +2,7 @@
 title: Total knee replacement guide
 date: "2018-02-25T22:12:03.284Z"
 description: Orthopedic conditions
-featured: /tkr.jpg
+featured: ./tkr.jpg
 ---
 ![home physical therapy](./tkr.jpg)
 

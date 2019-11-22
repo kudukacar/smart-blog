@@ -1,10 +1,28 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* html { font-size:100%; }  */
+
+/* @media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }  */
 
 body {
-  margin-top: 90px;
+  margin-top: 6%;
   font-family: "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 18px;
+  font-size: 1.3vw;
+  line-height: auto;
 }
 
 ul {
@@ -13,6 +31,8 @@ ul {
 
 img {
   margin-bottom: 0px;
+  max-width: 100%; 
+  height: auto;
 }
 
 code {
@@ -231,53 +251,47 @@ code {
 }
 .insurance {
   display: flex;
-  padding: 0px 200px;
+  padding: 0 14%;
   background-color: #F8F9F9;
-  line-height: 1.5;
 }
 
 .insurancetype {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 40px;
-  padding: 30px 0px;
+  margin-right: 2%;
+  padding: 1% 0;
+  width: 100%;
 }
 
 .insurancetype > div {
-  font-size: 30px;
-  padding-bottom: 20px;
+  font-size: 2.2vw;
+  padding-bottom: 2%;
 }
 
 .insurancetype > ul {
-  line-height: 1.5;
-  font-size: 24px;
+  font-size: 1.7vw;
 }
 
-.insurance > img {
-  display: block;
-  max-width: 450px;
-  height: 380px;
+.img {
+  width: 100%;
 }
 
 .questions {
-  margin: 0px 200px;
+  margin: 0 14%;
 }
 
 .questionheader {
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 2.2vw;
+  padding-top: 2%;
 }
 
 .question {
-  font-size: 24px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  font-size: 1.7vw;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 
-.answer {
-  line-height: 1.5;
-}
 
 .contact {
   display: flex;

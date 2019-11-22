@@ -2,7 +2,7 @@
 title: Home health care benefits
 date: "2018-05-13T23:46:37.121Z"
 description: Home physical therapy
-featured: /homehealth.jpg
+featured: ./homehealth.jpg
 ---
 ![home physical therapy](./homehealth.jpg)
 

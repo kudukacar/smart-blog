@@ -2,7 +2,7 @@
 title: Move confidently and reduce falls
 date: "2018-01-06T22:12:03.284Z"
 description: Movement and balance
-featured: /seniors2.jpg
+featured: ./seniors2.jpg
 ---
 
 ![Home physical therapy](./seniors2.jpg)

@@ -2,7 +2,7 @@
 title: Medication jenga
 date: "2018-03-25T22:40:32.169Z"
 description: Movement and balance
-featured: /medmngt.jpg
+featured: ./medmngt.jpg
 ---
 ![home physical therapy](./medmngt.jpg)
 

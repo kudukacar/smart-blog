@@ -36,19 +36,19 @@ const Insurance = () => {
           <div>Insurance accepted (in-network)</div>
           <ul>
             <li>Medicare Part B</li>
-            <li>Empire BlueCross Blue Shield</li>
             <li>Humana Medicare Advantage</li>
           </ul>
           <p>No referral required.  You should be under the care of a physician, podiatrist, or nurse practitioner.</p>
         </div>
-        <Image
-          fluid={data.home.childImageSharp.fluid}
-          alt="home physical therapy"
-          style={{
-            marginBottom: 0,
-            minWidth: 500
-          }}
-        />
+        <div className="img">
+          <Image
+            fluid={data.home.childImageSharp.fluid}
+            alt="home physical therapy"
+            // style={{
+            //   minWidth: 500
+            // }}
+          />
+        </div>
       </div>
       <div className="insurance">
         <div className="insurancetype">
@@ -58,14 +58,12 @@ const Insurance = () => {
           </ul>
           <p>No referral required.  We provide an invoice to submit to your insurance company as needed.</p>
         </div>
-        <Image
-          fluid={data.walking.childImageSharp.fluid}
-          alt="home physical therapy"
-          style={{
-            marginBottom: 0,
-            minWidth: 500
-          }}
-        />
+        <div className="img">
+          <Image
+            fluid={data.walking.childImageSharp.fluid}
+            alt="home physical therapy"
+          />
+        </div>
       </div>
       <div className="questions">
         <div className="questionheader">You have questions - I have answers</div>
