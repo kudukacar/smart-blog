@@ -27,23 +27,27 @@ const Insurance = () => {
   return(
     <React.Fragment>
       <SEO 
-        title="Medicare provider"
-        description="accepts Medicare"
+        title="Insurance accepted"
+        description="Smart Moves Physical Therapy is in-network with Medicare and Humana Medicare Advantage, and accepts all other insurances with out-of-network benefits."
       />
       <NavBar />
       <div className="insurance">
         <div className="insurancetype">
-          <div>Insurance accepted (in-network)</div>
-          <ul>
+          <div className="insuranceheader">Insurance accepted</div>
+          <div className="insurancenetwork">In-network</div>
+          <ul className="insurances">
             <li>Medicare Part B</li>
             <li>Humana Medicare Advantage</li>
           </ul>
-          <p>No referral required.  You should be under the care of a physician, podiatrist, or nurse practitioner.</p>
+          <div className="insurancenetwork">Out-of-network</div>
+          <ul className="insurances">
+            <li>Any Medicare Advantage plan, not listed above, with out-of-network benefits</li>
+          </ul>
         </div>
         <div className="img">
           <Image
-            fluid={data.home.childImageSharp.fluid}
-            alt="home physical therapy"
+            fluid={data.walking.childImageSharp.fluid}
+            alt="Medicare physical therapist"
             // style={{
             //   minWidth: 500
             // }}
@@ -52,16 +56,15 @@ const Insurance = () => {
       </div>
       <div className="insurance">
         <div className="insurancetype">
-          <div>Private pay</div>
-          <ul>
+          <div className="insuranceheader">Private pay</div>
+          <ul className="privatepay">
             <li>$100 per visit</li>
           </ul>
-          <p>No referral required.  We provide an invoice to submit to your insurance company as needed.</p>
         </div>
         <div className="img">
           <Image
-            fluid={data.walking.childImageSharp.fluid}
-            alt="home physical therapy"
+            fluid={data.home.childImageSharp.fluid}
+            alt="Humana physical therapist"
           />
         </div>
       </div>

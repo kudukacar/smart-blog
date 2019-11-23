@@ -6,8 +6,8 @@ import SEO from "../components/seo";
 const Services = () => (
   <React.Fragment>
     <SEO 
-      title="Physical therapy house calls"
-      description="Home physical therapy"
+      title="Services"
+      description="Smart Moves Physical Therapy addresses movement and balance disorders, and orthopedic conditions."
     />
     <NavBar />
     <div className="services">

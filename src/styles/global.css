@@ -1,5 +1,5 @@
 body {
-  margin-top: 6%;
+  margin-top: 5.5%;
   font-family: "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,73 +32,75 @@ code {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 15px 100px;
+  padding: 1% 10%;
   border-bottom: 1px solid lightgray;
-  font-size: 22px;
+  font-size: 1.7vw;
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #ffffff;
   z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .leftnav {
   display: flex;
   align-items: center;
+  width: 50%;
+  justify-content: left;
 }
 
 .leftnav > img {
-  width: 40px;
-  height: 60px;
+  max-width: 40px;
+  max-height: 50px;
 }
 
 .leftnav > div {
-  padding-left: 10px;
+  padding-left: 1%;
   font-weight: bold;
   color: #007acc;
 }
 
 .rightnav {
   display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: right;
 }
 
 .rightnav > a {
-  padding-left: 30px;
-  font-size: 18px;
+  margin-left: 4%;
+  font-size: 1.3vw;
 }
 
 .rightnav > a.selected, .rightnav > a:hover {
   color: #007acc;
 }
 
-.rightnav > div {
-  padding-left: 30px;
-}
-
 .footer {
   text-align: center;
   border-top: 1px solid lightgray;
-  padding: 30px 0px;
-  line-height: 2;
+  padding: 2.8% 0%;
 }
 
 .footer > div > a {
-  margin: 0px 10px;
+  margin: 0% .7%;
   color: #007acc;
-  font-size: 30px;
+  font-size: 2.2vw;
 }
 
 .copyright {
   background-color: #85929E;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 1.6%;
 }
 
 .overview {
   text-align: center;
-  padding: 180px 0px;
+  padding: 12% 0%;
   background-image: url(../../content/assets/nyc3.jpeg);
   color: white;
   background-repeat: no-repeat;
@@ -106,67 +108,64 @@ code {
 }
 
 .overviewheader {
-  font-size: 54px;
-  padding-bottom: 20px;
+  font-size: 4vw;
+  padding-bottom: 1.5%;
   font-weight: bold;
 }
 
 .overviewcaption {
-  font-size: 34px;
-  line-height: 1.5;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 
 .research {
   text-align: center;
-  margin: 50px 200px;
+  margin: 2% 14%;
 }
 
 .research > div, .homeimage > div > div {
-  font-size: 40px;
+  font-size: 3vw;
 }
 .research > p , .homeimage > div > p {
-  line-height: 1.5;
-  font-size: 24px;
+  font-size: 1.7vw;
+}
+
+.homeimage > div {
+  width: 70%;
 }
 
 .homeimage {
   text-align: center;
-  background-image: url(../../content/assets/home.jpg);
-  padding-top: 400px;
-  margin: 0px 200px;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url(../../content/assets/home.jpg); */
 }
 
-.homeimage > div {
+.homeimagetext {
   background-color: #F8F9F9;
-  padding: 50px 40px;
+  padding: 2% 0%;
 }
 
 .story {
   display: flex;
-  margin: 0px 200px;
+  margin: 0% 14%;
 }
 
 .story > div {
-  padding: 50px 70px;
+  padding: 5% 7%;
   text-align: center;
-  line-height: 1.5;
 } 
 
 .story > div > div {
-  font-size: 40px;
+  font-size: 3vw;
   display: flex;
   justify-content: center;
-}
-
-.APTA {
-  text-align: center;
-  background-color: #F8F9F9;
+  align-items: center;
 }
 
 .services {
-  margin: 0px 200px;
+  margin: 0% 14%;
 }
 
 .servicesmovement {
@@ -177,7 +176,7 @@ code {
 .seniors {
   text-align: center;
   background-image: url(../../content/assets/couple2.jpg);
-  padding-top: 550px;
+  padding-top: 52%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -186,50 +185,44 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 0px;
+  padding: 1.7% 0%;
 }
 
 .balanceheader, .orthopedicheader {
     text-align: center;
-    font-size: 30px;
+    font-size: 2.2vw;
     padding-bottom: 20px;
-}
-
-.balanceheader {
-  line-height: 2;
 }
 
 .balance > div > ul {
   /* margin: 0px 250px; */
-  line-height: 2;
-  font-size: 22px;
+  font-size: 1.6vw;
   display: flex;
   flex-direction: column;
-  margin: 0px 40px;
-  padding-bottom: 20px;
+  margin: 0% 4%;
+  padding-bottom: 2%;
 }
 
 .servicesimage {
   text-align: center;
   background-image: url(../../content/assets/seniors.jpg);
-  padding-top: 550px;
+  padding-top: 52%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .orthopedic {
-  padding: 20px 0px;
+  padding: 1.7% 0%;
 }
 
 .orthopedicconditions {
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 2;
-  font-size: 22px;
+  font-size: 1.6vw;
 }
 
 .orthopedicconditions > ul {
-  padding: 0px 40px;
+  padding: 0% 3.8%;
 }
 .insurance {
   display: flex;
@@ -246,13 +239,18 @@ code {
   width: 100%;
 }
 
-.insurancetype > div {
+.insuranceheader {
   font-size: 2.2vw;
   padding-bottom: 2%;
 }
 
-.insurancetype > ul {
+.insurances {
+  margin-bottom: 0;
+}
+
+.insurancenetwork, .privatepay {
   font-size: 1.7vw;
+  padding-bottom: 1%;
 }
 
 .img {
@@ -277,34 +275,26 @@ code {
 
 .contact {
   display: flex;
-  padding: 0px 200px;
+  padding: 0% 14%;
   background-color: #F8F9F9;
-  line-height: 1.5;
 }
 
-.contact > img {
-  display: block;
-  max-width: 550px;
-}
-
-.contact > div {
+.contactsection {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 40px 50px 0px;
-}
-
-.contact > div > p {
-  padding-top: 20px;
 }
 
 .contactheader {
-  font-size: 40px;
+  font-size: 3vw;
   padding-bottom: 10px;
 }
 
 .contactinfo {
-  padding: 5px 0px;
-  font-size: 20px;
-  line-height: 2.0;
+  padding: 1.3% 0%;
+  font-size: 1.5vw;
+}
+
+.contact > div {
+  width: 100%;
 }

@@ -18,8 +18,8 @@ class BlogIndex extends React.Component {
         <NavBar />
         <Layout location={this.props.location} title={siteTitle}>
           <SEO 
-            title="Home physical therapy"
-            description="physical therapy house calls" 
+            title="Blog"
+            description="Physical therapy related blog addressing topics such as fall prevention" 
           />
           <Bio />
           {posts.map(({ node }) => {

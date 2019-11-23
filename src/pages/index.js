@@ -16,13 +16,20 @@ const About = () => {
           }
         }
       }
+      homeimage: file(absolutePath: { regex: "/home.jpg/" }) {
+        childImageSharp {
+          fluid(maxWidth: 700) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   return(
     <React.Fragment>
       <SEO 
         title="Home physical therapy"
-        description="physical therapy house calls" 
+        description="Smart Moves Physical Therapy provides physical therapy in the home, and serves Queens, Nassau county, and Manhattan." 
       />
       <NavBar />
       <div>
@@ -39,6 +46,12 @@ const About = () => {
         </div>
         <div className="homeimage">
           <div>
+            <Image 
+              fluid={data.homeimage.childImageSharp.fluid}
+              alt="physical therapist house calls"
+            />
+          </div>
+          <div className="homeimagetext">
             <div>Enhance your health, fitness, and independence</div>
             <p>Research shows no difference between physical therapy in the home and at a facility.</p>
           </div>
@@ -48,7 +61,7 @@ const About = () => {
             <div>
               <Image
                 fixed={data.avatar.childImageSharp.fixed}
-                alt="home physical therapy"
+                alt="fall prevention"
                 style={{
                   marginRight: rhythm(1 / 2),
                   marginBottom: 0,

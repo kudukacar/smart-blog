@@ -21,25 +21,23 @@ const Contact = () => {
   return(
     <React.Fragment>
       <SEO 
-        title="Floral Park, New York"
-        description="Queens, Nassau Count, and Manhattan" 
+        title="Contact"
+        description="Phone, fax, and email for Smart Moves Physical Therapy" 
       />
       <NavBar />
       <div className="contact">
-        <div>
+        <div className="contactsection">
           <div className="contactheader">Contact us</div>
           <div className="contactinfo">Phone: 678-372-7972</div>
           <div className="contactinfo">Fax: 347-826-0865</div>
           <div className="contactinfo">mthomas@smartmovesphysicaltherapy.com</div>
         </div>
-        <Image
-          fluid={data.walking2.childImageSharp.fluid}
-          alt="home physical therapy"
-          style={{
-            marginBottom: 0,
-            minWidth: 500
-          }}
-        />
+        <div>
+          <Image
+            fluid={data.walking2.childImageSharp.fluid}
+            alt="home physical therapist"
+          />
+        </div>
       </div>
       <Footer />
     </React.Fragment>

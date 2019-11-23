@@ -4,7 +4,7 @@ module.exports = {
     author: `Manju Thomas`,
     description: `Home physical therapy`,
     siteUrl: `https://goofy-mirzakhani-dd25fe.netlify.com/`,
-    keyword: `home physical therapy, physical therapy house calls, fall prevention`,
+    keyword: `home physical therapy, physical therapy house calls, fall prevention, Floral Park, New York`,
     social: {
       twitter: `thomasmanju`
     },
