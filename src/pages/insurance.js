@@ -64,7 +64,7 @@ const Insurance = () => {
         <div className="img">
           <Image
             fluid={data.home.childImageSharp.fluid}
-            alt="Humana physical therapist"
+            alt="Humana physical therapist  "
           />
         </div>
       </div>
