@@ -19,7 +19,7 @@ class BlogIndex extends React.Component {
         <Layout location={this.props.location} title={siteTitle}>
           <SEO 
             title="Blog"
-            description="Physical therapy related blog addressing topics such as fall prevention" 
+            description="Physical therapy blog addressing topics such as fall prevention and home physical therapy." 
           />
           <Bio />
           {posts.map(({ node }) => {

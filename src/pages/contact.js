@@ -35,7 +35,7 @@ const Contact = () => {
         <div>
           <Image
             fluid={data.walking2.childImageSharp.fluid}
-            alt="home physical therapist"
+            alt="home physical therapist Floral Park, New York"
           />
         </div>
       </div>

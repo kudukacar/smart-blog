@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <header className="nav">
       <nav className="leftnav">
-        <img src={logo} alt="home physical therapy" />
+        <img src={logo} alt="in home physical therapy" />
         <div>
           <Link to="/">Smart Moves Physical Therapy</Link>
         </div>

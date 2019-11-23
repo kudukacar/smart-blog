@@ -48,7 +48,7 @@ const About = () => {
           <div>
             <Image 
               fluid={data.homeimage.childImageSharp.fluid}
-              alt="physical therapist house calls"
+              alt="home physical therapy Floral Park, New York"
             />
           </div>
           <div className="homeimagetext">

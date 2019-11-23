@@ -47,10 +47,7 @@ const Insurance = () => {
         <div className="img">
           <Image
             fluid={data.walking.childImageSharp.fluid}
-            alt="Medicare physical therapist"
-            // style={{
-            //   minWidth: 500
-            // }}
+            alt="Medicare physical therapist Floral Park, New York"
           />
         </div>
       </div>
@@ -64,7 +61,7 @@ const Insurance = () => {
         <div className="img">
           <Image
             fluid={data.home.childImageSharp.fluid}
-            alt="Humana physical therapist  "
+            alt="Humana physical therapist Floral Park, New York"
           />
         </div>
       </div>
