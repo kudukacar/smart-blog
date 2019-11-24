@@ -1,5 +1,4 @@
 body {
-  margin-top: 5.5%;
   font-family: "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,56 +27,6 @@ code {
     text-decoration: none;
     box-shadow: none;
     color: inherit;
-}
-
-.nav {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  padding: 1% 10%;
-  border-bottom: 1px solid lightgray;
-  font-size: 1.7vw;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #ffffff;
-  z-index: 1;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.leftnav {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  justify-content: left;
-}
-
-.leftnav > img {
-  max-width: 40px;
-  max-height: 50px;
-}
-
-.leftnav > div {
-  padding-left: 1%;
-  font-weight: bold;
-  color: #007acc;
-}
-
-.rightnav {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  justify-content: right;
-}
-
-.rightnav > a {
-  margin-left: 4%;
-  font-size: 1.3vw;
-}
-
-.rightnav > a.selected, .rightnav > a:hover {
-  color: #007acc;
 }
 
 .footer {
@@ -164,6 +113,10 @@ code {
   align-items: center;
 }
 
+.story > div > p {
+  font-size: 1.5vw;
+}
+
 .services {
   margin: 0% 14%;
 }
@@ -246,6 +199,7 @@ code {
 
 .insurances {
   margin-bottom: 0;
+  font-size: 1.3vw;
 }
 
 .insurancenetwork, .privatepay {
@@ -270,6 +224,10 @@ code {
   font-size: 1.7vw;
   padding-top: 4%;
   padding-bottom: 2%;
+}
+
+.answer {
+  font-size: 1.3vw;
 }
 
 
