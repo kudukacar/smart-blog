@@ -2,7 +2,7 @@
 ### Website including blog for Smart Moves Physical Therapy PLLC deployed on netlify.
 
 # Site
-[live](https://goofy-mirzakhani-dd25fe.netlify.com/)
+[live](https://www.smartmovesphysicaltherapy.com/)
 
 # Technologies
    * React
