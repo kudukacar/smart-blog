@@ -197,6 +197,13 @@ code {
   background-color: #F8F9F9;
 }
 
+@media screen and (max-width: 480px) and (min-width: 411px) {
+  .insurance {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .insurancetype {
   display: flex;
   flex-direction: column;
@@ -255,6 +262,13 @@ code {
   display: flex;
   padding: 0% 14%;
   background-color: #F8F9F9;
+}
+
+@media screen and (max-width: 480px) and (min-width: 411px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .contactsection {
