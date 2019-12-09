@@ -197,9 +197,8 @@ code {
   background-color: #F8F9F9;
 }
 
-@media screen and (max-width: 480px) and (min-width: 411px) {
+@media all and (max-width: 480px) {
   .insurance {
-    display: flex;
     flex-direction: column;
   }
 }
@@ -264,9 +263,8 @@ code {
   background-color: #F8F9F9;
 }
 
-@media screen and (max-width: 480px) and (min-width: 411px) {
+@media all and (max-width: 480px) {
   .contact {
-    display: flex;
     flex-direction: column;
   }
 }
