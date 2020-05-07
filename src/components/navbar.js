@@ -8,7 +8,9 @@ import {
   Navbar,
   NavbarBrand,
   NavbarToggler,
-  Nav
+  Nav,
+  NavItem,
+  NavLink
 } from "reactstrap";
  
 class NavBar extends React.Component {
@@ -42,47 +44,55 @@ class NavBar extends React.Component {
           <Container>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse isOpen={!this.state.collapsed} navbar>
-              <Nav className="mr-auto" navbar>
-                  <Link
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink 
+                    style={{ color: "black" }} 
+                    onClick={this.closeNavbar}
+                    >
+                    <Link to="/" exact path="/">About</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
                     style={{ color: "black" }}
                     onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks" 
-                    to="/"
                   >
-                    About
-                  </Link>
-                  <Link
+                    <Link to="/services">Services</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
                     style={{ color: "black" }}
                     onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks"
-                    to="/services"
                   >
-                    Services
-                  </Link>
-                  <Link
+                    <Link to="/insurance">Insurance</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
                     style={{ color: "black" }}
                     onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks"
-                    to="/insurance"
                   >
-                    Insurance
-                  </Link>
-                  <Link
+                    <Link to="/blog">Blog</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
                     style={{ color: "black" }}
                     onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks"
-                    to="/blog"
                   >
-                    Blog
-                  </Link>
-                  <Link
-                  style={{ color: "black" }}
+                    <Link to="/contact">Contact</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    style={{ color: "black" }}
                     onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks"
-                    to="/contact"
                   >
-                    Contact
-                  </Link>
+                    <Link to="/covid">COVID-19 Response</Link>
+                  </NavLink>
+                </NavItem>
               </Nav>
             </Collapse>
           </Container>
