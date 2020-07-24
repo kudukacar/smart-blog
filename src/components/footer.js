@@ -11,9 +11,9 @@ const Footer = () => (
     <div>678-372-7972</div>
     <div>Serves Queens, Nassau County, and Manhattan</div>
     <div>
-      <a href="https://www.facebook.com/floralparknewyork"><FaFacebook /></a>
-      <a href="https://twitter.com/movesphysical"><FaTwitter /></a>
-      <a href="https://www.linkedin.com/company/smart-moves-physical-therapy"><FaLinkedin /></a>
+      <a href="https://www.facebook.com/floralparknewyork" aria-label="facebook"><FaFacebook /></a>
+      <a href="https://twitter.com/movesphysical" aria-label="twitter"><FaTwitter /></a>
+      <a href="https://www.linkedin.com/company/smart-moves-physical-therapy" aria-label="linkedin"><FaLinkedin /></a>
     </div>
     <div className="copyright">©2019 BY SMART MOVES PHYSICAL THERAPY</div>
   </div>

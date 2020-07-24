@@ -11,13 +11,24 @@ const Covid = () => {
         description="Smart Moves Physical Therapy COVID-19 response"
       />
       <NavBar />
-      <div className="contact">
-        <div className="contactsection">
-          <div className="contactheader">COVID-19 Response</div>
-          <div className="contactinfo">For the safety of clients and therapists, Smart Moves resumes home visits when New York lifts stay at home orders.</div>
-          <div className="contactinfo">At that time, we monitor symptoms of both therapist and client, and plan visits accordingly.</div>
-          <div className="contactinfo">We wear a mask and gloves each visit, and wash hands before and after each visit.</div>
+      <div className="covid">
+        <div className="balanceheader">
+          COVID-19 Response: Smart Moves is open!
         </div>
+        <ul className="covidresponse">
+          <li>Home visits assume less risk than facility visits.</li>
+          <li>
+            You have the same therapist each visit, reducing risk further.
+          </li>
+          <li>
+            We monitor symptoms, including temperature, of therapist and
+            client, and visit accordingly.
+          </li>
+          <li>
+            We wear a mask and gloves each visit, and wash hands before and
+            after each visit.
+          </li>
+        </ul>
       </div>
       <Footer />
     </React.Fragment>

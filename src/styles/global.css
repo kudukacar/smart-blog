@@ -290,3 +290,12 @@ code {
 .contact > div {
   width: 100%;
 }
+
+.covidresponse {
+  font-size:calc(12px + .8vw);
+}
+
+.covid {
+  background-color: #F8F9F9;
+  padding: 2% 14%;
+}
