@@ -16,17 +16,18 @@ const Covid = () => {
           COVID-19 Response: Smart Moves is open!
         </div>
         <ul className="covidresponse">
-          <li>Home visits assume less risk than facility visits.</li>
           <li>
-            You have the same therapist each visit, reducing risk further.
+            Home visits are safer than facility visits, and you have the same therapist each visit.
           </li>
           <li>
-            We monitor symptoms, including temperature, of therapist and
-            client, and visit accordingly.
+            We monitor exposure and symptoms of therapist and client, and visit accordingly.
           </li>
           <li>
             We wear a mask and gloves each visit, and wash hands before and
             after each visit.
+          </li>
+          <li>
+            As appropriate, we maintain a safe distance between therapist and client.
           </li>
         </ul>
       </div>
