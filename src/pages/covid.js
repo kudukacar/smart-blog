@@ -23,7 +23,7 @@ const Covid = () => {
             We monitor exposure and symptoms of therapist and client, and visit accordingly.
           </li>
           <li>
-            We wear a mask and gloves each visit, and wash hands before and
+            We wear a mask each visit, and wash hands before and
             after each visit.
           </li>
           <li>
