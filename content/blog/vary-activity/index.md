@@ -2,7 +2,7 @@
 title: Vary your exercise routine to increase your health benefits
 date: "2020-09-14T23:46:37.121Z"
 description: Movement and balance
-featured: ./covidactivity.jpg
+featured: ./joggers.jpg
 ---
 ![in home physical therapy](./joggers.jpg)
 
